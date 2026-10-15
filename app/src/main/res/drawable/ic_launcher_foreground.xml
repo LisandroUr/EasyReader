@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Stack of books representing series-based organization -->
+    <!-- Safe zone is 66x66 dp, centered at 54,54. Range is [21, 87] -->
+
+    <!-- Bottom Book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,68 L78,68 L78,78 L30,78 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M78,68 L82,68 L82,78 L78,78 Z" />
+
+    <!-- Middle Book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,53 L74,53 L74,63 L26,63 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M74,53 L78,53 L78,63 L74,63 Z" />
+
+    <!-- Top Book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,38 L70,38 L70,48 L22,48 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M70,38 L74,38 L74,48 L70,48 Z" />
+
+    <!-- Bookmark/Progress tracker on the top book -->
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M50,38 L62,38 L62,58 L56,53 L50,58 Z" />
+
+</vector>
